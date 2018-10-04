@@ -1,0 +1,10 @@
+<!--<init-param>--><!--<param-name>credential</param-name>--><!--<param-value>/WEB-INF/JSON_FILE_NAME</param-value>--><!--</init-param>--><!--<init-param>--><!--<param-name>databaseUrl</param-name>--><!--<param-value>FIREBASE_URL</param-value>--><!--</init-param>-->
+
+<init-param>
+    <param-name>credential</param-name>
+    <param-value>/WEB-INF/task-1dc3a-aa348545e914.json</param-value>
+    <!--</init-param>-->
+    <!--<init-param>-->
+    <param-name>databaseUrl</param-name>
+    <param-value>https://task-1dc3a.firebaseio.com</param-value>
+</init-param>

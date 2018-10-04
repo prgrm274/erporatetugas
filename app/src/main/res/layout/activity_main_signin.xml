@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+
+    <TextView
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/drawable2"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/usernameIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="type your username" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/drawable2"
+        android:id="@+id/passwordIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:hint="type your password" />
+
+    <Button
+        android:background="@android:color/white"
+        android:padding="4dp"
+        android:layout_margin="10dp"
+        android:id="@+id/buttonSignIn"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not registered? Please sign up" />
+
+    <Button
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:id="@+id/toButtonSignUp"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
