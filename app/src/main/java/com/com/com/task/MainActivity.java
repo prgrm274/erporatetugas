@@ -19,7 +19,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private String url = "https://erporate.com/bootcamp/jsonBootcamp.php";
 
@@ -73,7 +73,7 @@ public class MainActivity2 extends AppCompatActivity {
 //            pDialog.setIndeterminate(false);
 //            pDialog.setCancelable(false);
 //            pDialog.show();
-            Toast.makeText(MainActivity2.this, "loading", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "loading", Toast.LENGTH_SHORT).show();
         }
 
         @Override
@@ -111,7 +111,7 @@ public class MainActivity2 extends AppCompatActivity {
                             e.printStackTrace();
                         }
                     } else {
-                        Toast.makeText(MainActivity2.this, " = error while loading", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, " = error while loading", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
