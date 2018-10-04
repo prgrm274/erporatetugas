@@ -6,30 +6,31 @@
 
     <TextView
         android:id="@+id/nama"
+        android:layout_margin="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
+        android:textStyle="bold"
         android:padding="10dp"
-        android:textColor="@android:color/holo_blue_light"
+        android:textColor="@android:color/darker_gray"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/alamat"
+        android:layout_margin="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
         android:padding="10dp"
-        android:textColor="@android:color/holo_purple"
+        android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/detail"
+        android:layout_margin="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
         android:padding="10dp"
-        android:textColor="@android:color/holo_purple"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <ImageView
         android:padding="2dp"
